@@ -37,7 +37,7 @@ body{
 
 header{
     background: var(--midnight-blue);
-    color: var(--soft-white);
+    color: var(--linen);
     text-align: center;
     padding: 0.5rem;
     grid-area: head;
@@ -52,7 +52,7 @@ header h1{
 }
 
 header p{
-    color: var(--midnight-blue);
+    color: var(--linen);
     font-style: italic;
     font-size: 0.9em;
 }
@@ -63,10 +63,14 @@ section{
     border-bottom: 2px solid var(--champagne-gold);
 }
 
+#about, #offerings, #gallery{
+    padding: 2rem;
+}
+
 #menu{
     background: var(--champagne-gold);
     width: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     grid-area: head;
 }
 
@@ -82,7 +86,7 @@ nav ul{
 nav a{
     text-decoration: none;
     color: var(--dark-charcoal);
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 
@@ -174,6 +178,7 @@ footer address{
 }
 
 footer p{
+    font-style: normal;
     text-align: center;
 }
 
