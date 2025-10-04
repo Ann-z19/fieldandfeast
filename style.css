@@ -120,6 +120,7 @@ h2{
     max-width: 1200px;
     justify-items: center;
     grid-template-columns: 1fr;
+    margin: 0 auto;
 }
 
 #gallery figure{
